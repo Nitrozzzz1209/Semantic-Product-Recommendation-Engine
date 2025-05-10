@@ -1,0 +1,23 @@
+name: fashion_ML
+channels:
+  - conda-forge
+dependencies:
+  - python=3.8
+  - numpy
+  - pandas
+  - scikit-learn
+  - matplotlib
+  - jupyter
+  - nltk
+  - scipy
+  - tensorflow  # CPU version
+  - pillow
+  - faiss-cpu
+  - lime
+  - tabulate
+  - requests
+  - pip
+  - pip:
+      - sentence-transformers
+      - tensorflow-hub
+      - tensorflow-text
